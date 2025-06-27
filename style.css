@@ -7,6 +7,7 @@ body {
     background-color: rgb(112, 255, 181);
     height: 70px;
     width: 100%;
+    display: flex;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -65,7 +66,7 @@ p {
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     color: rgb(167, 167, 167);
 }
 
@@ -152,7 +153,7 @@ h3 {
     gap: 300px;
 }
 
-.ry-detail{
+.ry-detail {
     width: 400px;
     display: flex;
     border: 1px solid grey;
@@ -174,7 +175,7 @@ h3 {
     gap: 300px;
 }
 
-.bike-name{
+.bike-name {
     font-size: 30px;
     font-weight: bold;
     display: flex;
@@ -193,7 +194,7 @@ h3 {
     margin-top: 450px;
     margin-bottom: 100px;
     gap: 300px;
-    
+
 
 }
 
@@ -228,16 +229,121 @@ h3 {
 }
 
 .ry-button:hover {
-    
+
     text-decoration: underline;
     transform: scale(1.15);
 
 
 }
 
-.bike-pic img{
+.bike-pic img {
     display: flex;
     border-radius: 15px;
     height: 200px;
     width: 300px;
 }
+
+.hero-navbar {
+    height: 70px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+    margin-bottom: 50px;
+}
+
+.hero-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #eb1400;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-button {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.hero-row {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-detail {
+    margin-top: 300px;
+    margin-left: 150px;
+    width: 300px;
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.hero-image {
+    border-radius: 8px;
+}
+
+.hero-bike-details {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    padding: 4px;
+}
+
+.hero-row2 {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 320px;
+    margin-left: 200px;
+}
+
+.hero-row3 {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   margin-top: 300px;
+    margin-bottom: 350px;
+}
+
+    footer {
+    height: 150px;
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-top: 5px;
+    }
