@@ -196,8 +196,9 @@ h3 {
     margin-left: 250px;
     margin-right: 125px;
     margin-top: 450px;
+    margin-bottom: 100px;
     gap: 300px;
-margin-bottom: 300px;
+
 
 }
 
@@ -343,7 +344,7 @@ margin-bottom: 300px;
 }
 
     footer {
-    height: 10px;
+    height: 150px;
       background-color: #111;
       color: white;
       text-align: center;
